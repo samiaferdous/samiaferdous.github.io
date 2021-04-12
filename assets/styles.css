@@ -12,6 +12,7 @@ header {
     position: relative;
     justify-content: space-between;
     flex: wrap;
+    margin-bottom: 30px;
     }
 
 header h1 {
@@ -99,7 +100,6 @@ header nav ul li a {
 
   .flex-container {
     display: flex;
-    margin-top: 20px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-evenly;
@@ -127,7 +127,6 @@ header nav ul li a {
 
   .projects {
     width: 50%;
-    margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     padding: 40px;
@@ -138,6 +137,7 @@ header nav ul li a {
     background-color: #ebb501;
     border: 5px solid #8e5572;
     padding: 10px;
+    margin-top: 30px;
   }
 
   footer {
