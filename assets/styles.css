@@ -1,21 +1,52 @@
+body {
+  text-align: center;
+}
+
 header {
     display: flex;
-    background-color: yellowgreen;
+    background-color: #bbbe64;
     color: white;
     padding: 10px 25px;
     background-size: cover;
     align-items: center;
     position: relative;
+    justify-content: space-between;
+    flex: wrap;
     }
 
-body {
-    text-align: center;
+header h1 {
+  padding: 30px;
+  margin-left: 50px;
+  font-size: 36px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: lighter
 }
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
 
 header nav ul li {
     display:inline;
     list-style-type: none;
 }
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
 
 .navbar {
     margin-right: 50px;
@@ -34,11 +65,105 @@ header nav ul li {
     padding: 10px 40px;
     text-decoration:underline;
     font-weight: 300;
-    font-size: 15px; 
+    font-size: 25px;
     display: inline;
     }
   
   .navbar a:hover {
     border-radius: 25px;
-    color: yellow;
+    color: black;
   }
+
+  #AboutMe {
+    border-bottom: .5px solid #8e5572;
+    justify-content: space-evenly;
+  }
+
+  h3 {
+    font-size: 100px;
+    color: #8e5572;
+
+  }
+
+  h4 {
+    color: #8e5572;
+  }
+
+  img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 300px;
+
+  }
+
+  .flex-container {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+  }
+  
+  .section-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin:0 auto 35px auto;
+    width: 50%;
+  }
+
+  .vertical {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: block;
+}
+
+  p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .projects {
+    width: 50%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: space-around;
+  }
+
+  .project-box {
+    background-color: #ebb501;
+    border: 5px solid #8e5572;
+    padding: 10px;
+  }
+
+  footer {
+    display: flex;
+    background-color: #443850;
+    color: white;
+    padding: 10px 25px;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  footer a {
+    display: flex;
+    float:left;
+    color:white;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration:underline;
+    font-weight: 300;
+    font-size: 25px;
+    display: inline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+
