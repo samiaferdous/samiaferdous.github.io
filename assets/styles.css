@@ -102,7 +102,7 @@ header nav ul li a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content:space-around;
   }
   
   .section-title {
@@ -134,6 +134,7 @@ header nav ul li a {
   }
 
   .project-box {
+    flex-wrap: wrap;
     background-color: #ebb501;
     border: 5px solid #8e5572;
     padding: 10px;
